@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #3a4a58;
+}
+.all-container {
+  width: 37%;
+  margin: 0 auto;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+}
+.header-container {
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0px;
+  align-items: center;
+}
+.header-container span {
+  padding-right: 30px;
+  font-size: 43px;
+}
+
+.header-container h1 {
+  font-size: 40px;
+  font-weight: 400;
+}
+.image img {
+  max-width: 100%;
+}
+.main-container {
+  background-color: #fff;
+}
+h2 {
+  color: #996633;
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 400;
+}
+
+.left {
+  text-align: left;
+  padding-left: 10px;
+}
+
+.table-container {
+  display: flex;
+  justify-content: center;
+  color: #8c8c8c;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 17px;
+  padding: 20px 20px 30px 20px;
+}
+table {
+  border-spacing: 0;
+  width: 100%;
+}
+table th,
+td {
+  padding: 13px 0px;
+}
+table td {
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background-color: #e5e8ed;
+}
+tr:nth-child(even) {
+  background-color: #fff;
+}
+tr:first-child {
+  color: #20130e;
+  background-color: #c4cdd6;
+}
+a {
+  transition: all 0.3s ease;
+}
+.tm-contact-link:hover {
+  color: #808e9e;
+}
+.three-images {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+.box {
+  width: 28%;
+}
+.box img {
+  max-width: 100%;
+}
+.box .txt {
+  padding: 20px 0px;
+  text-align: center;
+  line-height: 29px;
+  font-family: cursive;
+}
+hr {
+  width: 60%;
+  margin: 0 auto;
+  border: 0.5px solid #ccc;
+}
+.small-text {
+  padding: 0px 90px 20px 90px;
+}
+.small-text p {
+  color: #8c8c8c;
+  padding-bottom: 20px;
+  font-size: 1rem;
+  line-height: 1.7;
+  font-family: cursive;
+}
+.social-icons {
+  display: flex;
+  width: 25%;
+  margin: 0 auto;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.soc-container a {
+  color: white;
+  background-color: #c5ced8;
+  border-radius: 2px;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3px;
+  text-decoration: none;
+}
+.soc-container a:hover {
+  background-color: #808e9e;
+  transition: all 0.5s ease;
+}
+.contact p {
+  text-align: center;
+  color: #8c8c8c;
+}
+.contact a {
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+.social-icons {
+  padding: 30px 0px;
+}
+.footer {
+  color: #fff;
+  padding: 30px 0px;
+  text-align: center;
+}
